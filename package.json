@@ -1,0 +1,16 @@
+{
+  "name": "reelforge-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-assisted browser video editor starter with FFmpeg export and large-file disk uploads",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "openai": "^4.77.0"
+  }
+}
